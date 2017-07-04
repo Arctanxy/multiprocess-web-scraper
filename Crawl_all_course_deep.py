@@ -15,7 +15,7 @@ headers = {
 }
 #Headers is important
 
-def get_all_course_urls(url,i)：
+def get_all_course_urls(url,i):
   if i >= 4:
     return None
   time.sleep(2)
@@ -32,6 +32,7 @@ def get_all_course_urls(url,i)：
       #If the url doesn't meet the form of course url, we should crawl inside to the url
       #It will be easier to do this by Scrapy, but we will make it by ourselves
       get_all_course_urls(item,i+1)
+  return None
 
       
       
