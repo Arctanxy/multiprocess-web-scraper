@@ -15,7 +15,7 @@ headers = {
 }
 #Headers is important
 
-def get_all_course_urls(url，i)：
+def get_all_course_urls(url,i)：
   if i >= 4:
     return None
   time.sleep(2)
